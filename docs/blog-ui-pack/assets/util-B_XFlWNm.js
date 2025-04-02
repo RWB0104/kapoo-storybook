@@ -1,0 +1,1 @@
+function a(e){return e==null?void 0:e.map(({url:c,meta:t})=>({category:t.category,description:t.excerpt,href:c,tags:t.tag,thumbnail:t.coverImage,timestamp:t.date,title:t.title}))}function o(e,c){var r;const t=((r=c==null?void 0:c.rows)==null?void 0:r.map(({dimensionValues:n})=>n[0].value))??[];return e==null?void 0:e.filter(({url:n})=>t.includes(n))}export{o as a,a as t};
