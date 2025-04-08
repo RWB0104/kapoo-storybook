@@ -1,5 +1,5 @@
 const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./index-79pSZuZP.js","./index-r57MSJFk.js"])))=>i.map(i=>d[i]);
-import{j}from"./jsx-runtime-BnHmloXs.js";import{e as q,r as ln}from"./index-r57MSJFk.js";import{B as cn}from"./Button-Dh0nduKR.js";import{c as sn}from"./utils-jAU0Cazi.js";import{T as dn}from"./Typography-DMH6rXmA.js";import{c as Zo}from"./createLucideIcon-rzbM5Zb5.js";import{C as un}from"./copy-BXYibgbH.js";import{_ as gn}from"./iframe-B57HXOZ8.js";/**
+import{j}from"./jsx-runtime-BnHmloXs.js";import{e as q,r as ln}from"./index-r57MSJFk.js";import{B as cn}from"./Button-Dh0nduKR.js";import{c as sn}from"./utils-jAU0Cazi.js";import{T as dn}from"./Typography-DMH6rXmA.js";import{c as Zo}from"./createLucideIcon-rzbM5Zb5.js";import{C as un}from"./copy-BXYibgbH.js";import{_ as gn}from"./iframe-DZyN6wWk.js";/**
  * @license lucide-react v0.477.0 - ISC
  *
  * This source code is licensed under the ISC license.
