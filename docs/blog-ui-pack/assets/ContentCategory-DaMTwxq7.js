@@ -1,0 +1,10 @@
+import{j as t}from"./jsx-runtime-BnHmloXs.js";import{a as p}from"./index-CXRgFPsP.js";import{c as m,I as u}from"./Img-BWjKDNi_.js";import{B as l}from"./Button-BSmWULQs.js";/**
+ * @license lucide-react v0.477.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=[["path",{d:"M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8",key:"1p45f6"}],["path",{d:"M21 3v5h-5",key:"1q7to0"}]],f=m("RotateCw",g);function h({categories:o,selected:s=[]}){const c=p(),i=()=>{const e=new URLSearchParams(window.location.search);e.delete("page"),e.delete("category"),c.replace(`?${e.toString()}`,{scroll:!1})},d=({currentTarget:e})=>{const n="category",{value:r}=e,a=new URLSearchParams(window.location.search);a.delete("page"),a.getAll(n).includes(r)?a.delete(n,r):Object.keys(o).length===s.length+1?a.delete(n):a.append(n,r),c.replace(`?${a.toString()}`,{scroll:!1})};return t.jsxs("div",{className:"bg-secondary flex flex-wrap gap-1 rounded p-4","data-component":"ContentCategory",children:[t.jsxs(l,{variant:"outline",onClick:i,children:[t.jsx(f,{}),"전체"]}),Object.entries(o).map(([e,n])=>t.jsxs(l,{value:e,variant:s.includes(e)?"default":"outline",onClick:d,children:[t.jsx(u,{alt:e,className:"rounded-full object-cover",height:20,src:`https://datastore.itcode.dev/blog/category/${e}.png`,width:20}),t.jsx("span",{children:e}),t.jsx("span",{className:"text-muted-foreground",children:n})]},e))]})}h.__docgenInfo={description:`컨텐츠 카테고리 organism 컴포넌트 반환 메서드
+
+@param {ContentCategoryProps} param0: ContentCategoryProps
+
+@returns {React.JSX.Element} JSX`,methods:[],displayName:"ContentCategory",props:{categories:{required:!0,tsType:{name:"Record",elements:[{name:"string"},{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]}],raw:"Record<string, number | undefined>"},description:"카테고리 리스트"},selected:{required:!1,tsType:{name:"Array",elements:[{name:"string"}],raw:"string[]"},description:"선택 목록",defaultValue:{value:"[]",computed:!1}}}};export{h as C};
