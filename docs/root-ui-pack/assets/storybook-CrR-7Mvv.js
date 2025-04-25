@@ -1,0 +1,1 @@
+var e=function(r){return r.PROP="Property",r.EV="Event",r}({});function o(r,n,t){return{...t,componentSubtitle:r,docs:{description:{component:Array.isArray(n)?n.join("<br />"):n}}}}export{e as S,o as g};
