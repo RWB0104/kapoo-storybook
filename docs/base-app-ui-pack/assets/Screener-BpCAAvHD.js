@@ -14,7 +14,7 @@ Read more: https://nextjs.org/docs/messages/next-image-missing-loader`),"__NEXT_
 
 @param {ImgProps} param0: ImgProps
 
-@returns {React.JSX.Element} JSX`,methods:[],displayName:"Img"};function Fn({src:t,isImage:e,stop:n,children:r,className:l,...a}){const{data:s=[]}=wn(),o=W.useMemo(()=>tn(s),[s]);return B.jsxs("div",{className:Tt("relative size-full",l),"data-component":"Screener",...a,children:[B.jsx("div",{className:"absolute left-0 top-0 z-10 size-full bg-[#00000080]",children:r}),B.jsx("div",{className:"pointer-events-none absolute left-0 top-0 size-full",children:e===!0&&t!==void 0?B.jsx(Ut,{alt:t,className:"size-full object-cover object-center",src:t,fill:!0}):B.jsx("video",{autoPlay:n!==!0,className:"size-full object-cover object-center",controls:!1,src:t??s[o],loop:!0,muted:!0})})]})}Fn.__docgenInfo={description:`스크리너 organism 컴포넌트 반환 메서드
+@returns {React.JSX.Element} JSX`,methods:[],displayName:"Img"};function Fn({src:t,isImage:e,stop:n,children:r,className:l,...a}){const{data:s=[]}=wn(),o=W.useMemo(()=>tn(s),[s]);return B.jsxs("div",{className:Tt("relative size-full",l),"data-component":"Screener",...a,children:[B.jsx("div",{className:"top-0 left-0 z-10 absolute bg-[#00000080] size-full",children:r}),B.jsx("div",{className:"top-0 left-0 absolute size-full pointer-events-none",children:e===!0&&t!==void 0?B.jsx(Ut,{alt:t,className:"size-full object-center object-cover",src:t,fill:!0}):B.jsx("video",{autoPlay:n!==!0,className:"size-full object-center object-cover",controls:!1,src:t??s[o],loop:!0,muted:!0})})]})}Fn.__docgenInfo={description:`스크리너 organism 컴포넌트 반환 메서드
 
 @param {ScreenerProps} param0: ScreenerProps
 
