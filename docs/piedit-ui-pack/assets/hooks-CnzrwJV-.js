@@ -1,0 +1,1 @@
+import{r as n}from"./index-ScFTdtO_.js";function c(e,s,r){n.useEffect(()=>{const o=new MutationObserver(t=>{t.forEach(s)});if(e!==null)if(typeof e=="string"){const t=document.querySelector(e);t&&o.observe(t,r)}else o.observe(e,r);return()=>{o.disconnect()}},[e,s,r])}export{c as u};
