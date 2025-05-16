@@ -1,5 +1,0 @@
-import{j as s}from"./jsx-runtime-BnHmloXs.js";import{r as d}from"./index-r57MSJFk.js";import{u}from"./hooks-8hacZ9vh.js";import{T as p}from"./Typography-DMH6rXmA.js";import{M as c}from"./MarkdownCodeblock-DqrxDWGi.js";function l({children:a,className:t="",...m}){const[i,r]=d.useState(),o=/^(language-)(.*?)$/.exec(t),n=o==null?void 0:o[2];return u("body",()=>{const e=document.body.classList.contains("dark");r(e?"dark":"light")},{attributeFilter:["class"],attributes:!0}),d.useEffect(()=>{const e=localStorage.getItem("theme");e!==null&&r(e==="dark"?"dark":"light")},[]),n===void 0?s.jsx(p,{className:t,"data-component":"MarkdownCode",variant:"inline-code",children:a}):s.jsx(c,{className:t,"data-component":"MarkdownCode",languageName:n,theme:i,...m,children:a})}l.__docgenInfo={description:`마크다운 코드 organism 컴포넌트 반환 메서드
-
-@param {MarkdownCodeProps} param0: MarkdownCodeProps
-
-@returns {React.JSX.Element} JSX`,methods:[],displayName:"MarkdownCode",props:{className:{defaultValue:{value:"''",computed:!1},required:!1}}};export{l as M};
