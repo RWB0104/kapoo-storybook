@@ -1,1 +1,0 @@
-import{r as n}from"./add-base-path-BjOsEuMe.js";import{a as o,r as u}from"./index-ScFTdtO_.js";var e={},t;function s(){return t||(t=1,function(r){Object.defineProperty(r,"__esModule",{value:!0}),Object.defineProperty(r,"HeadManagerContext",{enumerable:!0,get:function(){return a}});const a=n()._(o()).default.createContext({})}(e)),e}var f=u.createContext({});export{f as I,s as r};
