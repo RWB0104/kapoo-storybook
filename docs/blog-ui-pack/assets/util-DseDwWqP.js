@@ -1,0 +1,1 @@
+function c(e){return e==null?void 0:e.map(({url:p,meta:t})=>({category:t.category,description:t.excerpt,href:p,tags:t.tag,thumbnail:t.coverImage,timestamp:t.date,title:t.title,type:t.type}))}export{c as t};
