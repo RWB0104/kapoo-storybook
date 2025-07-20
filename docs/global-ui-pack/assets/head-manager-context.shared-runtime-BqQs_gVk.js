@@ -1,1 +1,0 @@
-import{r as n}from"./_interop_require_wildcard-BpaVepTj.js";import{a as u}from"./index-BCzbi48b.js";var e={},t;function c(){return t||(t=1,function(r){Object.defineProperty(r,"__esModule",{value:!0}),Object.defineProperty(r,"HeadManagerContext",{enumerable:!0,get:function(){return a}});const a=n()._(u()).default.createContext({})}(e)),e}export{c as r};
