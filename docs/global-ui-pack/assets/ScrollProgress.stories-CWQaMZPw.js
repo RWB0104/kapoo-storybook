@@ -1,9 +1,0 @@
-import{j as o}from"./jsx-runtime-BnHmloXs.js";import{r as t}from"./index-BCzbi48b.js";import{g as y,a as c,S as E}from"./storybook-DTn28L93.js";import{c as l}from"./utils-jAU0Cazi.js";import"./jsx-runtime-BEh3FTX5.js";function n({barClassName:u,className:i,...g}){const s=t.useRef(null),e=t.useCallback(()=>{const f=document.documentElement.scrollTop,{scrollHeight:P}=document.documentElement,{clientHeight:S}=document.documentElement,h=P-S,x=f/h*100,v=Math.floor(x*100)/100;s.current&&(s.current.style.width=`${v}%`)},[]);return t.useEffect(()=>(e(),document.addEventListener("scroll",e),()=>{document.removeEventListener("scroll",e)}),[e]),o.jsx("div",{className:l("fixed top-0 left-0 z-50 h-1 w-full",i),"data-component":"ScrollProgress",...g,children:o.jsx("div",{className:l("bg-foreground h-full rounded-e-full",u),"data-component":"ScrollProgress-bar",ref:s})})}n.__docgenInfo={description:`스크롤 진행바 molecule 컴포넌트 반환 메서드
-
-@param {ScrollProgressProps} param0: ScrollProgressProps
-
-@returns {React.JSX.Element} JSX`,methods:[],displayName:"ScrollProgress",props:{barClassName:{required:!1,tsType:{name:"string"},description:"바 클래스"}},composes:["DetailedHTMLProps"]};const a="ScrollProgress",R={argTypes:{barClassName:{table:{category:a,subcategory:E.PROP}},className:c("className",a),id:c("id",a)},component:n,parameters:y("스크롤 진행바 컴포넌트",["스크롤 시, 현재 페이지의 진행률을 보여주는 컴포넌트입니다."]),tags:["autodocs"],title:"molecule/ScrollProgress"},r={render:()=>o.jsx("div",{className:"h-[2000px]",children:o.jsx(n,{})})};var m,d,p;r.parameters={...r.parameters,docs:{...(m=r.parameters)==null?void 0:m.docs,source:{originalSource:`{
-  render: () => <div className="h-[2000px]">
-            <ScrollProgress />
-        </div>
-}`,...(p=(d=r.parameters)==null?void 0:d.docs)==null?void 0:p.source}}};const _=["Playground"];export{r as Playground,_ as __namedExportsOrder,R as default};
