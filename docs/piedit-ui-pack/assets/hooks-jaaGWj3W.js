@@ -1,0 +1,1 @@
+import{r as n}from"./index-Bl3ua-ot.js";import"./github-Bu9gdF8d.js";function i(e,s,r){n.useEffect(()=>{const o=new MutationObserver(t=>{t.forEach(s)});if(e!==null)if(typeof e=="string"){const t=document.querySelector(e);t&&o.observe(t,r)}else o.observe(e,r);return()=>{o.disconnect()}},[e,s,r])}export{i as u};
