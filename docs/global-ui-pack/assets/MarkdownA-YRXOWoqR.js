@@ -1,0 +1,5 @@
+import{j as e}from"./jsx-runtime-B-QetEgW.js";import{L as s}from"./link-Dn71nyKY.js";import{c as i}from"./utils-jAU0Cazi.js";import{T as d}from"./Typography-BEBnOgwC.js";import{L as m}from"./link-CbjQKCpM.js";function p({href:n,color:r,className:a,children:o,...t}){return e.jsxs(s,{className:i({"border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400":r==="blue","border-green-600 text-green-600 dark:border-green-400 dark:text-green-400":r==="green"},"center mx-1 inline-flex items-center gap-1 rounded border px-2 py-1 duration-300 hover:opacity-65",a),"data-component":"MarkdownA",href:n,...t,children:[e.jsx(m,{size:14}),e.jsx(d,{variant:"small",children:o})]})}p.__docgenInfo={description:`마크다운 a 태그 atom 컴포넌트 반환 메서드
+
+@param {MarkdownAProps} param0: MarkdownAProps
+
+@returns {React.JSX.Element} JSX`,methods:[],displayName:"MarkdownA",props:{href:{required:!0,tsType:{name:"string"},description:"링크"},color:{required:!0,tsType:{name:"union",raw:"'blue' | 'green'",elements:[{name:"literal",value:"'blue'"},{name:"literal",value:"'green'"}]},description:"색상"}},composes:["DetailedHTMLProps"]};export{p as M};

@@ -1,0 +1,5 @@
+import{j as e}from"./jsx-runtime-B-QetEgW.js";function n({title:o,subtitle:r,vertical:s,container:t,className:l,children:a,...i}){return e.jsxs("div",{className:`flex flex-col gap-4 ${s===!0?"":"sm:flex-row"} ${l??""}`.trim(),"data-component":"StorybookTemplate",...i,children:[e.jsxs("div",{className:"flex w-full shrink-0 flex-col gap-2 sm:w-48",children:[e.jsx("h3",{className:"text-lg font-bold",children:o}),e.jsx("p",{className:"text-muted-foreground text-sm",children:r})]}),e.jsx("div",{className:`grid flex-1 gap-4 ${t===!0?"":"sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6"}`,children:a})]})}n.__docgenInfo={description:`Storybook template 컴포넌트 반환 메서드
+
+@param {StorybookTemplateProps} param0: StorybookTemplateProps
+
+@returns {React.JSX.Element} JSX`,methods:[],displayName:"StorybookTemplate",props:{title:{required:!0,tsType:{name:"string"},description:"타이틀"},subtitle:{required:!1,tsType:{name:"string"},description:"서브 타이틀"},vertical:{required:!1,tsType:{name:"boolean"},description:"수직 여부"},container:{required:!1,tsType:{name:"boolean"},description:"컨테이너 여부"}},composes:["DetailedHTMLProps"]};export{n as S};
